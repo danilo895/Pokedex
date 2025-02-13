@@ -1,0 +1,79 @@
+.header-font {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: #00000096;
+    text-shadow: rgb(255 255 255 / 77%) 0px 3px 3px;
+}
+
+.pokeIdFont{
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.font-loadingSpinner{
+    font-family: "Dosis", sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.pokeNameFont{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+    color: white;
+}
+
+.emptySearchFont{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+/* DETAILSEITE */
+
+.evoNameFont{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 32px;
+    margin: 0;
+    color: white;
+}
+
+.pokeNameFont-detailsite {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+    color: white;
+    margin: 0;
+}
+
+.pokeIdFontDetail{
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}

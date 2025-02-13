@@ -1,0 +1,276 @@
+@media(max-width: 800px){
+    .headerInfos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 108px;
+        flex-direction: column;
+    }
+
+    header{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .header-font{
+        font-size: 30px;
+    }
+
+    header img {
+        height: 56px;
+    }
+
+    .header-left{
+        justify-content: space-between;
+    }
+
+    .box:hover input{
+        width: 200px;
+        background: #3b3640;
+        border-radius: 10px;
+    }
+
+    .input {
+        padding: 8px;
+        width: 56px;
+        height: 56px;
+        background: none;
+        border: 4px solid rgb(212, 255, 0);
+        border-radius: 50px;
+        box-sizing: border-box;
+        font-family: Comic Sans MS;
+        font-size: 26px;
+        color: rgb(212, 255, 0);
+        outline: none;
+        transition: .5s;
+    }
+
+    .box {
+        position: fixed;
+        top: 80px;
+    }
+
+    .box i{
+        right: 2px;
+    }
+
+    .detailedPokeCard {
+        width: 470px;}
+
+    .pokeDetailPic {
+        height: 280px;
+        width: 280px;
+        margin: 0 auto;
+        margin-top: -20px;
+        }
+
+    .evoContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+        justify-content: space-around;
+        background-color: #eae6ee4f;
+        border-radius: 8px;
+        }
+    
+    .speciesColumn {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        }
+
+    .headerOfDetailSite{
+        padding-top: 16px;  
+    }
+
+    .evoImages {
+        height: 60px;
+        width: 60px;
+        }
+    
+    .evoNameFont {
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 20px;
+        margin: 0;
+        color: white;
+        }
+}
+
+
+@media(max-width: 500px){
+    .headerInfos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 108px;
+        flex-direction: column;
+    }
+
+    header{
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 120px;
+        background: rgb(160,161,159);
+        background: radial-gradient(circle, rgba(160,161,159,1) 10%, rgba(255,255,255,1) 80%);
+        padding: 0;
+    }
+    
+    .header-left {
+        margin-left: 0;
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 48%, rgba(160,161,159,1) 80%);
+    }
+
+    .content{
+        padding-top: 130px;
+    }
+
+    .header-font{
+        font-size: 30px;
+    }
+
+    .detailedPokeCard {
+        width: 290px;
+        height: 620px;
+    }
+
+    .box{
+        position: fixed;
+        top: 70px;
+    }
+
+
+    .header-left{
+        justify-content: space-between;
+    }
+
+    .header-font{
+        margin: 10px;
+    }
+
+    header img{
+        height: 36px;
+        padding-right: 10px;
+    }
+
+    .headerInfos{
+        height: 100%
+    }
+
+    .box:hover input{
+        width: 280px;
+        background: #3b3640;
+        border-radius: 10px;
+    }
+
+    .input {
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+        background: none;
+        border: 4px solid rgb(212, 255, 0);
+        border-radius: 50px;
+        box-sizing: border-box;
+        font-family: Comic Sans MS;
+        font-size: 13px;
+        color: rgb(212, 255, 0);
+        outline: none;
+        transition: .5s;
+    }
+
+    .box i {
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        color: rgb(212, 255, 0);
+        transition: .2s;
+    }
+
+    .detailedPokeCard{
+        width: 290px;
+    }
+
+    .pokeNameFont-detailsite {
+        font-family: "Kodchasan", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 23px;
+        color: white;
+        margin: 0;
+    }
+
+    .close{
+        font-size: 36px;
+    }
+
+    .pokeDetailPic {
+        height: 164px;
+        width: 164px;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    .arrow {
+        height: 56px;
+        width: 56px;
+    }
+
+    .buttonsDetailsite {
+        margin-top: 4px;
+    }
+
+    .button-detailsite{
+        width: 96px;
+        padding: 11px 4px;
+        font-size: 17px;
+    }
+
+    table{
+        width: 332px;
+        font-size: 18px;
+    }
+
+    .evoContainer {
+        flex-direction: column;
+    }
+
+
+    .speciesColumn {
+        display: flex;
+        background-color: #872bc152;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .speciesColumnSeparator {
+        display: none;}
+
+    .evoNameFont {
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 19px;
+        margin: 0;
+        color: white;
+        padding-left: 8px;
+    }
+
+    .speciesColumnSeparatorResponsive{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .evoImages {
+        height: 48px;
+        width: 48px;
+    }
+}

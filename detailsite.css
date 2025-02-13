@@ -1,0 +1,289 @@
+.contentDetailSite{
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(to right, #000000, #7d0bb2); 
+    background: linear-gradient(to right, #000000, #7d0bb2);
+    padding-top: 200px;
+    height: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.bodyDetailSite{
+    margin: 0;
+    height: 100%;
+    background: -webkit-linear-gradient(to right, #000000, #7d0bb2); 
+    background: linear-gradient(to right, #000000, #7d0bb2);
+}
+
+.headerOfDetailSite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:start;
+    gap: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 12px;
+}
+
+.detailedPokeCard{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 550px;
+    background-color: hsl(242deg 3.17% 6.64% / 50%);
+    -webkit-backdrop-filter: blur(5px); /* Safari/iOS Unterstützung */
+    backdrop-filter: blur(5px); /* Standard */
+    border-radius: 16px;
+    box-shadow: 5px 5px 33px 3px rgba(255,255,255,0.74);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.pokeDetailPic{
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.buttonsDetailsite{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-detailsite {
+align-items: center;
+background-image:linear-gradient(144deg, hsl(268.62deg 88.4% 56.3%), #c4d7ceab 50%, hsl(268.62deg 88.4% 56.3%));
+border: 1px solid white;
+box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+box-sizing: border-box;
+color: rgb(119, 113, 113);
+display: flex;
+font-family: "Dosis", sans-serif;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: rgba(124, 1, 255, 0.605);
+font-size: 20px;
+justify-content: center;
+line-height: 1em;
+width: 188px;
+padding: 19px 24px;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;touch-action: manipulation;
+white-space: nowrap;
+cursor: pointer;
+filter: brightness(85%);
+}
+
+
+.button-detailsite:active,
+.button-detailsite:hover {
+    filter: brightness(100%);
+}
+
+.arrow{
+    height: 80px;
+    width: 80px;
+    filter: invert(31%) sepia(108%) saturate(159%) hue-rotate(230deg) brightness(100%) contrast(101%);
+
+
+}
+
+.arrow:hover{
+    cursor: pointer;
+    filter: invert(31%) sepia(138%) saturate(159%) hue-rotate(230deg) brightness(110%) contrast(101%);
+}
+
+.imgAndArrowSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 2px solid hsl(268.62deg 88.4% 56.3%);
+}
+
+table {
+    width: 550px;
+    font-family: "Dosis", sans-serif;
+    font-size: 24px;
+    border-collapse: collapse;
+    color: white;
+}
+
+table td,
+table th {
+    border: 0;
+    padding: 8px;
+    width: 275px;
+}
+
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.detailInfoCont{
+    margin-top: 20px;
+}
+
+
+.closeWindow{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 4px;
+}
+
+.close{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    color: white;
+}
+
+.hover-close-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.hover-close-detail:hover{
+    background-color: #ea0000;
+}
+
+
+.close:hover{
+    cursor: pointer;
+    filter:opacity(200px);
+}
+
+.evoArrowResponsive{
+    height: 32px;
+    width: 32px;
+}
+
+.overlaySite{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #000000de;
+        margin: 0 auto;
+}
+
+.d-none{
+    display: none;
+}
+
+
+
+.statsOfEachPoke{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress{
+    width: 150px;
+    height: 32px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #aaa;
+    margin: 1px;
+    margin-right: 6px;
+}
+
+.progress-p{
+    margin: 0;
+    padding: 0;
+    width: 102px;
+    font-family: "Dosis", sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    color: white;
+}
+
+.progress-value{
+    height: 30px;
+    background-image:linear-gradient(144deg, hsl(268.62deg 88.4% 56.3%), #c4d7ceab 50%, hsl(268.62deg 88.4% 56.3%));
+}
+
+.physicalFactsOfPoke{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.speciesColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.speciesColumnSeparator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.speciesColumnSeparatorResponsive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    display: none;
+}
+
+.evoContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-around;
+    background-color: #eae6ee4f;
+    border-radius: 8px;
+}
+
+.evoImages{
+    height: 100px;
+    width: 100px;
+}
+
+.evoArrow {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 50px;
+}
+
+.iconsInDetail{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.leftHeaderDetailsite{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconsDetailSite{
+    display: flex;
+    gap: 8px;
+}
