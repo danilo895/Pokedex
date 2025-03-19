@@ -3,7 +3,7 @@ function getHeader() {
         <div class="headerInfos">
             <div class="header-left">
             <p class="header-font">POKEDEX</p>
-            <img src="./assets/img/pokelogo.png" alt="Pokemon-Logo">
+            <img src="./assets/img/pokelogo2.png" alt="Pokemon-Logo">
             </div>
             <div class="box">
         <form name="search">

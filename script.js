@@ -232,11 +232,9 @@ function fillInIconsDetailSite(pokemonId) {
     let iconsDetailSite = document.getElementById(`iconsDetailSite${pokemonId}`);
     let iconHtml = '';
     if (pokemon && pokemon.types) {
-        // Durchlaufe die Typen des Pokémon
         for (let j = 0; j < pokemon.types.length; j++) {
             let pokeType = pokemon.types[j].type.name;
             let typeClassOfPoke = `poke-type-${pokeType}`;
-            // Füge für jeden Typ ein Icon hinzu
             iconHtml += `<div class="${typeClassOfPoke}" id="type${j}"></div>`;
         }
     }
@@ -252,10 +250,13 @@ function closeDetailSite() {
 
 
 function loadingSpinner() {
+    document.body.classList.add("o-hidden");
     setTimeout(function () {
         document.getElementById("overlay-loading-spinner").style.display = "none";
+        document.body.classList.remove("o-hidden");
     }, 3000);
 }
+
 
 
 function showPokeAbs(pokemonId) {

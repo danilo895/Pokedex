@@ -1,14 +1,7 @@
 .header-font {
-    font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 48px;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: #00000096;
-    text-shadow: rgb(255 255 255 / 77%) 0px 3px 3px;
+    font-family: "Rubik Pixels", system-ui;
+    color: white;
+    font-size: 64px;
 }
 
 .pokeIdFont{
